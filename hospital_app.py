@@ -88,9 +88,10 @@ if st.button("Predict Department"):
     'heart_rate_level': hr_map.get(heart_rate_level, 1),
     'duration': dur_map.get(duration, 1),
     'asthma': int(asthma),
-    'hypertension': int(hypertension),
-    'heart_disease': int(heart_disease),
-    'chief_complaint': cc_map.get(chief_complaint, 9)
+        'hypertension': int(hypertension),
+        'heart_disease': int(heart_disease),
+        'chief_complaint': cc_map.get(chief_complaint, 9)
+    }])
   }])
   patient_scaled = patient.copy()
   patient_scaled[cols_to_scale] = scaler.transform(
