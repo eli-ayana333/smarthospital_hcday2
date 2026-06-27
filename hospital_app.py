@@ -2,4 +2,4 @@ import streamlit as st
 import pandas as pd
 import pickle
 
-st.set_page_config(page_title="Smart Hospital Patient Navigatior", page_ icon="🏥")
+st.set_page_config(page_title="Smart Hospital Patient Navigatior", page_icon="🏥")
