@@ -62,7 +62,7 @@ temperature_level = st.selectbox(
   list(temp_map.keys())
 )
 
-heart rate level = st.selectbox(
+heart_rate_level = st.selectbox(
   "Heart Rate",
   list(hr_map.keys())
 )
