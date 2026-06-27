@@ -3,3 +3,5 @@ import pandas as pd
 import pickle
 
 st.set_page_config(page_title="Smart Hospital Patient Navigatior", page_icon="🏥")
+
+st.title("🏥 Smart Hospital Navigator")
