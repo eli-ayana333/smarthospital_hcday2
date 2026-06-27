@@ -45,9 +45,22 @@ nausea_vomiting = st.checkbox("Nausea / Vomiting")
 dizziness = st.checkbox("Dizziness")
 skin_rash = st.checkbox("Skin Rash")
 
+st.header("Medical Information")
 
+cheif_complaint = st.selectbox(
+  "Chief Complaint",
+  list(cc_map.keys())
+)
 
+duration = st.selectbox(
+  "Duration",
+  list(dur_map.keys())
+)
 
+temperature_level = st.selectbox(
+  "Temperature",
+  list(temp_map.keys())
+)
 
 
 
