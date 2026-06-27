@@ -69,7 +69,7 @@ heart_rate_level = st.selectbox(
 
 hypertension = st.checkbox("High Blood Pressure")
 heart_disease = st.checkbox("Heart Disease")
-astha = st.checkbox("Asthma")
+asthma = st.checkbox("Asthma")
 
 if st.button("Predict Department"):
   patient = pd.DataFrame([{
